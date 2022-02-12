@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: azure;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.card{
+  width: 480px;
+  margin-top: 100px;
+  border-radius: 10px;
+  border: 0px solid;
+}
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  background-color: brown;
+  padding: 10px;
+  border-radius: 5px;
+}
+button{
+  border-radius: 50%;
+  min-height: 40px;
+  min-width: 40px;
+  margin-left : 40px;
+  height : 35px;
+  background-color:brown;
+  text-transform: capitalize;
+  color: aliceblue;
+}
+button:hover{
+  background-color: green;
 }
